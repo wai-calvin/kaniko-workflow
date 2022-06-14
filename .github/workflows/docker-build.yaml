@@ -13,6 +13,3 @@ jobs:
           image: cwai96/kaniko-example
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          cache: true
-          cache_registry: aevea/cache
-          path: /workspace/Dockerfile
