@@ -13,3 +13,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           cache: true
           cache_registry: aevea/cache
+          path: ./Dockerfile
